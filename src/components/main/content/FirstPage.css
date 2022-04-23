@@ -1,13 +1,58 @@
+.firstPage {
+  margin-top: 200px;
+}
+.firstPage__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.firstPage__lang {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
 .firstPage__lang-item {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #FFFFFF;
-  background: #253659;
+  color: #253659;
+  background: #ffffff;
   border: 1px solid #253659;
   border-radius: 30px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.firstPage__lang-item:hover {
+  background-color: #253659;
+  color: #ffffff;
+  transition: 0.2s;
+}
+.firstPage__content {
+  text-align: right;
+}
+.firstPage__content-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 49px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
+}
+.firstPage__content-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #253659;
 }
 
 /*# sourceMappingURL=FirstPage.css.map */
