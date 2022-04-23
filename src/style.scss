@@ -11,3 +11,28 @@
   width: 100%;
   margin: 0 auto;
 }
+
+body{
+  background: url("./assets/bg/bg.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+.bgWhite{
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 246px;
+  background-color: #fff;
+}
+
+.bgWhite1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 242px;
+  height: 100vh;
+  background-color: #fff;
+}

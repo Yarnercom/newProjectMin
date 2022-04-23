@@ -1,0 +1,16 @@
+.firstPage{
+  &__container{}
+  &__lang{
+    &-item{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #FFFFFF;
+      background: #253659;
+      border: 1px solid #253659;
+      border-radius: 30px;
+    }
+  }
+}
