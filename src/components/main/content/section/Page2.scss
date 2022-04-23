@@ -1,0 +1,31 @@
+.secondPage{
+  margin-top: 250px;
+  padding: 100px 0 50px 0;
+  &__title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 66px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+  }
+  &__col{
+    width: 561px;
+    height: 452px;
+    background-color: #253659;
+    position: relative;
+    &-descr{
+      width: 505px;
+      height: 112px;
+      background: #009EE3;
+      position: absolute;
+      bottom: 40px;
+    }
+  }
+}

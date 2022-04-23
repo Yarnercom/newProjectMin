@@ -2,7 +2,7 @@
   padding-top: 72px;
   &__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   &__right{
@@ -12,6 +12,13 @@
   }
   &__logo{
     font-size: 35px;
+    &-img{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
   }
   &__menu{
     display: flex;

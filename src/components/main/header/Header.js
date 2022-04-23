@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css'
+import Logo from './../../../assets/logo/logo.png'
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
             <div className='container'>
                 <div className='header__container'>
                     <div className='header__logo'>
-                        LOGO
+                        <img className='header__logo-img' src={Logo} alt="logo"/>
                     </div>
                     <div className='header__right'>
                         <ul className='header__menu'>
